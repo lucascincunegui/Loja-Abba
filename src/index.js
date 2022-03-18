@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "./screens/Home";
 import reportWebVitals from "./reportWebVitals";
+import Navigation from "./routes/Navigation";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Navigation />
   </React.StrictMode>,
   document.getElementById("root")
 );
